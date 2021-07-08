@@ -25,7 +25,7 @@ public class SearchSteps extends BasePage {
     public void iEnterLocationAs(String location) {
 
         homePage.enterLocation(location);
-        homePage.clickFirstOption();
+       // homePage.clickFirstOption();
     }
 
     @And("I select mininum bed as {string}")
