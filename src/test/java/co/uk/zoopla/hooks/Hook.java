@@ -15,6 +15,6 @@ public class Hook extends BrowserManager
     @After
     public void tearDown()
     {
-       // closeBrowser();
+        closeBrowser();
     }
 }
